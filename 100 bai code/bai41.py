@@ -4,5 +4,4 @@ t = 0
 for i in range(n):
     val = map(float, input().split())
     a.append(list(val))
-    t+= a[i][i]
-    print(t)
+    print(a[i])
