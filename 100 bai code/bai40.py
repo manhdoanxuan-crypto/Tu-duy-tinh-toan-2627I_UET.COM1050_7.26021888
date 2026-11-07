@@ -1,9 +1,12 @@
 
 import math
 
-n = int(input())
-a = math.trunc(n**0.5)
-if a**2 == n:
-    print("Yes")
-else:
-    print("No")
+k = int(input())
+t = 0
+for i in range(0, 10**18):
+    a = math.trunc(i**0.5)
+    if a**2 == i:
+        print(i , end = " ")
+        t+=1
+    if t == k:
+        break
