@@ -1,4 +1,7 @@
 n = int(input())
 a = []
 for i in range(n):
-    a.append(map(int,input()))
+    val = map(float, input().split())
+    a.append(list(val))
+
+print(a)
