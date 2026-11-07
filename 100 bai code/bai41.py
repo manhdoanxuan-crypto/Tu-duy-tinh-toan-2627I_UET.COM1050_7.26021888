@@ -2,7 +2,7 @@ n = int(input())
 a = []
 t = 0
 for i in range(n):
-    val = map(str, input().split())
+    val = map(float, input().split())
     a.append(list(val))
-    t=t+int(a[i])
-    print(t)
+t+=list(a)
+print(t)
