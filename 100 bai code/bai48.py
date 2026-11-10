@@ -10,4 +10,4 @@ for i in range(n):
 if not bool:
     print("-")
 else:
-    print(t)
+    print(f"\n{t}")
