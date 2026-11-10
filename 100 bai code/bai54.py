@@ -1,8 +1,12 @@
 a = list(map(int, input().split()))
 t = 0
 b = -10*18
-x = -1
-for i in range(n):
-    if a[i] > b :
+bool = False
+for i in range(a):
+    if a[i] > b and a[i] < 0:
         b = a[i]
-        x = i
+        bool = True
+if bool == False:
+    print("-")
+else:
+    print(b)
