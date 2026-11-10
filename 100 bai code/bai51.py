@@ -1,11 +1,11 @@
 a = list(map(int, input().split()))
 t = 0
 bool = False
-for i in range (a.len()):
+for i in range (len(a)):
     if a[i] < 0:
         continue
     else:
-        for j in range (a[1]**0.5):
+        for j in range (int(a[i]**0.5) + 1):
             if a[i] % j == 0:
                 break
             else:
