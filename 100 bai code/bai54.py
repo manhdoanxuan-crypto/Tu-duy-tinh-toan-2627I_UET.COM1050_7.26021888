@@ -1,5 +1,4 @@
 a = list(map(int, input().split()))
-t = 0
 b = -10*18
 bool = False
 for i in range(a):
