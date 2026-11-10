@@ -5,13 +5,14 @@ for i in range (len(a)):
     if a[i] < 0:
         continue
     else:
+        t1 = 0
         for j in range (2, int(a[i]**0.5) + 1):
             if a[i] % j == 0:
-                break
-            else:
-                bool = True
-                print(a[i], end=" ")
-                t+=a[i]
+                t1+=1
+        if t1 == 0:
+            bool = True
+            print(a[i], end=" ")
+            t+=a[i]
 
 if not bool:
     print("-")
