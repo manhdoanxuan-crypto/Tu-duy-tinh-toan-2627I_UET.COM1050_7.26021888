@@ -9,7 +9,7 @@ for i in range (len(a)):
         for j in range (2, int(a[i]**0.5) + 1):
             if a[i] % j == 0:
                 t1+=1
-        if t1 == 0:
+        if t1 == 0 and a[i] > t:
             bool = True
             t = a[i]
 if not bool:
