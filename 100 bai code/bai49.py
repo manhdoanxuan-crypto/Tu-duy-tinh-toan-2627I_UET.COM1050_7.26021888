@@ -7,4 +7,4 @@ for i in range(n-1, -1, -1):
     if a[i] > b:
         b = a[i]
         x = i
-print(b, i)
+print(b, x)
