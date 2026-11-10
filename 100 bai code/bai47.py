@@ -2,10 +2,14 @@ n = int(input())
 a = list(map(int, input().split()))
 b = []
 c = []
-for i in range(n):
+ch = 0 , l = 0
+for i in range(n+1):
     if a[i] > 0:
+        ch+=1
         b.append(a[i])
     else:
+        l+=1
         c.append(a[i])
-print(b)
-print(c)
+print(ch, l)
+print(*b)
+print(*c)
