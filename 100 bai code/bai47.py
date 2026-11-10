@@ -3,7 +3,7 @@ a = list(map(int, input().split()))
 b = []
 c = []
 ch , l = 0, 0
-for i in range(n+1):
+for i in range(n):
     if a[i] > 0:
         # ch+=1
         b.append(a[i])
