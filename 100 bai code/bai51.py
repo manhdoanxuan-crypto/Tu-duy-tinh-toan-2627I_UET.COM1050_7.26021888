@@ -2,7 +2,7 @@ a = list(map(int, input().split()))
 t = 0
 bool = False
 for i in range (len(a)):
-    if a[i] < 0:
+    if a[i] <= 1:
         continue
     else:
         t1 = 0
