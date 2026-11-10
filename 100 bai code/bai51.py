@@ -5,7 +5,7 @@ for i in range (len(a)):
     if a[i] < 0:
         continue
     else:
-        for j in range (int(1,a[i]**0.5)):
+        for j in range (2, int(a[i]**0.5) + 1):
             if a[i] % j == 0:
                 break
             else:
