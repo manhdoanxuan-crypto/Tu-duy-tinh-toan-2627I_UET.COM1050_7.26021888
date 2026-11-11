@@ -3,7 +3,7 @@ import sys
 a = []
 while True: 
     i= int(input())
-    a.append()
+    a.append(i)
     if i=="": break
 print(a)
     
