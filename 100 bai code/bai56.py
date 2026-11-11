@@ -1,7 +1,7 @@
 a = []
 while True:
-    x = int(input())
-    if x == '':
+    x = (input())
+    if x == 'p':
         break
     a.append(int(x))
 bool = False
