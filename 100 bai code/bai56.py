@@ -7,11 +7,13 @@ for line in sys.stdin:
         a.append(int(line))
 bool = False
 a.sort(reverse = True)
-for i in range (2,len(a),1):
-    if a[i] != a[i-1]:
-        if a[i-1] != a[i-2]:
+t = 0
+for i in range(len(a)):
+    if i == 0 or a[i] != a[i-1]:
+        t += 1
+        if t == 3:
             print(a[i])
-            bool = True
+            found = True
             break
 if bool == False:
     print("-")
