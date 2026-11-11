@@ -1,10 +1,9 @@
-n = int(input())
 a = []
-
-for i in range(n):
-    x = int(input())
-    a.append(x)
-print(a)
+while True:
+    x = input()
+    if x == 'q':
+        break
+    a.append(int(x))
 bool = False
 a.sort(reverse = True)
 for i in range (2,len(a),1):
