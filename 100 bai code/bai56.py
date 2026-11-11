@@ -2,6 +2,7 @@ import sys
 
 a = []
 while a.append(int(input())): 
+    b=0
 print(a)
     
 # bool = False
