@@ -1,4 +1,10 @@
-a = list(map(int, input().split()))
+n = int(input())
+a = []
+
+for i in range(n):
+    x = int(input())
+    a.append(x)
+print(a)
 bool = False
 a.sort(reverse = True)
 for i in range (2,len(a),1):
