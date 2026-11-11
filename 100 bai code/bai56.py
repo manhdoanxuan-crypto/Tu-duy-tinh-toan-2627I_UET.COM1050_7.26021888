@@ -1,8 +1,10 @@
 import sys
 
 a = []
-while a.append(int(input())): 
-    b=0
+while True: 
+    i= int(input())
+    a.append()
+    if i=="": break
 print(a)
     
 # bool = False
