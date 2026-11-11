@@ -1,11 +1,7 @@
 import sys
-g=0
-a = [4,5,7]
-while True:
-    i=int(input())
-    a.append(i)
-    g+=1
-    if g==10: break
+
+a = []
+while a.append(int(input())): 
 print(a)
     
 # bool = False
