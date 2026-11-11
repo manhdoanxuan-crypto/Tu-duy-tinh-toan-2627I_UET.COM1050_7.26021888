@@ -1,7 +1,7 @@
 import sys
 
 a = []
-while 1:
+while True:
     i=int(input())
     a.append(i)
     print(i)
