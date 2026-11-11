@@ -2,7 +2,8 @@ import sys
 
 a = []
 for line in sys.stdin:
-    if line.strip():
+    line = line.strip()
+    if line:
         a.append(int(line))
 bool = False
 a.sort(reverse = True)
