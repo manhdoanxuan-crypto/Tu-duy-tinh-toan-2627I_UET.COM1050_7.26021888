@@ -1,6 +1,6 @@
 import sys
 
-a = []
+a = [4,5,7]
 while True:
     i=int(input())
     a.append(i)
