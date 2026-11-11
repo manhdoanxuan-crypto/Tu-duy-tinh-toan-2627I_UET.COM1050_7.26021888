@@ -1,3 +1,12 @@
 a = list(map(int, input().split()))
+bool = False
 a.sort(reverse = True)
-print(a[1])
+for i in range (1,len(a),1):
+    if a[i] == a[i-1]:
+        continue
+    else:
+        print(a[1])
+        bool = True
+        break
+if bool == False:
+    print("-")
