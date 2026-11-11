@@ -4,8 +4,8 @@ a = []
 while True:
     i=int(input())
     a.append(i)
-    print(i)
-    break
+print(a)
+    
 # bool = False
 # a.sort(reverse = True)
 # t = 0
