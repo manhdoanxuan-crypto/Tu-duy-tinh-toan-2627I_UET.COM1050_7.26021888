@@ -5,6 +5,7 @@ while True:
     i=int(input())
     a.append(i)
     print(i)
+    break
 # bool = False
 # a.sort(reverse = True)
 # t = 0
