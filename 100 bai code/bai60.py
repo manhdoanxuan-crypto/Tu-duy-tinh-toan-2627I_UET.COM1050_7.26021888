@@ -8,8 +8,8 @@ for i in range (len(a)):
     if i > 0:
         b = math.trunc(i**0.5)
         if b**2 == i:
-            t +=i
-            t1 +=i
+            t +=a[i]
+            t1 +=1
             bool = True
 if bool == False:
     print("-")
