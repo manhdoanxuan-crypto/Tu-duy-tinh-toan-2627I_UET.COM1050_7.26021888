@@ -1,16 +1,16 @@
+import math
+
 a = list(map(int, input().split()))
 bool = False
 t = 0
 t1 = 0
 for i in range (len(a)):
-    t2 = 0
-    for j in range (2,i**0.5 + 1,1):
-        if i%j == 0:
-            t2 +=1
-    if t2 == 0:
-        bool = True
-        t += i
-        t1 += 1
+    if i > 0:
+        b = math.trunc(i**0.5)
+        if b**2 == i:
+            t +=i
+            t1 +=i
+            bool = True
 if bool == False:
     print("-")
 else:
