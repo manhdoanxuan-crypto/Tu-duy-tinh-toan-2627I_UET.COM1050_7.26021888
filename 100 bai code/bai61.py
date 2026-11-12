@@ -1,2 +1,2 @@
-a = input().split()
+a = input()
 print(f"Chao {a}")
