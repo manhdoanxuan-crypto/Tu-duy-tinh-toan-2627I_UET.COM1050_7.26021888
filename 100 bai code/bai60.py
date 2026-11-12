@@ -7,7 +7,7 @@ t1 = 0
 for i in range (len(a)):
     if a[i] > 0:
         b = math.trunc(i**0.5)
-        if b**2 == i:
+        if b**2 == a[i]:
             t +=a[i]
             t1 +=1
             bool = True
