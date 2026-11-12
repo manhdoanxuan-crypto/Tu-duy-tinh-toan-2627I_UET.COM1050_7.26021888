@@ -1,4 +1,4 @@
-s = int(input())
+s = input()
 w = s.split()
 c = len(w)
 print(c)
