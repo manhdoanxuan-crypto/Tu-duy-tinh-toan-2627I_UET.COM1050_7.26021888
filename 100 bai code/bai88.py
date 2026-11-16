@@ -8,4 +8,4 @@ def ucln(a,b):
             break
     return c
 a,b = map(int,input().split())
-print(f"{a/ucln(a,b)}/{b/ucln(a,b)})
+print(f"{a/ucln(a,b)}/{b/ucln(a,b)}")
