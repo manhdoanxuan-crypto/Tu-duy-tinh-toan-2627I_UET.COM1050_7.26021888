@@ -1,16 +1,23 @@
-def ucln(a,b):
-    c = 1
-    if a>b:
-        a,b=b,a
-    if b == 1 or a == 1:
-        return 1
-    for i in range(a+1,1,1):
-        if b%i == 0 and a%i == 0:
-            c=i
-            break
-    return c
-a,b = map(int,input().split())
-if a == 0 or b == 0:
-    print("-")
-else:
-    print(f"{a//ucln(a,b)}/{b//ucln(a,b)}")
+def ucln(a, b):
+    a, b = abs(a), abs(b)
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+def rut_gon(a, b):
+    if b == 0:
+        return "-"
+    if a == 0:
+        return "0"
+    if b < 0:
+        a = -a
+        b = -b
+    c = ucln(a, b)
+    t = a // c
+    m = b // c
+    if m == 1:
+        return str(t)
+    return f"{t}/{m}"
+
+a, b = map(int, input().split())
+print(rut_gon(a, b))
