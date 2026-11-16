@@ -1,4 +1,5 @@
 def ucln(a,b):
+    c = 1
     if a>b:
         a,b=b,a
     if b == 1 or a == 1:
