@@ -1,8 +1,8 @@
 n = int(input())
 bool = False
 for i in range (n):
-    i = int(input())
-    if i == 42:
+    b = int(input())
+    if b == 42:
         bool = True
         break
 if bool == True:
