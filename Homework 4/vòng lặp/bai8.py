@@ -6,6 +6,6 @@ t = 0
 
 while n != reverse_num(n):
     n = n + reverse_num(n)
-    steps += 1
+    t += 1
 
 print(t,n)
