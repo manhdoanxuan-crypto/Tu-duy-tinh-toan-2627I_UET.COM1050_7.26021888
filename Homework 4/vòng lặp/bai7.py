@@ -6,6 +6,7 @@ for i in range(n,1,-1):
         for j in range (2,int(i**0.5+1),1):
             if i == 2:
                 bool = True
+                break
             else:
                 if i%j ==0:
                     t+=1
