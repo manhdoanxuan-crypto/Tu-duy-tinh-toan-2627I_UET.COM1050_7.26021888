@@ -13,5 +13,4 @@ a,b = map(int,input().split())
 if a == 0 or b == 0:
     print("-")
 else:
-    # print(f"{a//ucln(a,b)}/{b//ucln(a,b)}")
-    print(ucln(a,b))
+    print(f"{a//ucln(a,b)}/{b//ucln(a,b)}")
