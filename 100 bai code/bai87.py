@@ -1,4 +1,4 @@
-def ktra(a)
+def ktra(a):
     if a%5==0:
         return "Yes"
     else:
