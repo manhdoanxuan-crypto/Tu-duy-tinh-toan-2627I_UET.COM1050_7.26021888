@@ -1,11 +1,11 @@
 n = int(input())
 bool = False
+a = list(map(int,input().split()))
 for i in range (n):
-    b = int(input())
-    if b == 42:
+    if a[i] == 42:
         bool = True
         break
 if bool == True:
     print("I've found the meaning of life!")
 else:
-    print("It't a joke!")
+    print("It's a joke!")
