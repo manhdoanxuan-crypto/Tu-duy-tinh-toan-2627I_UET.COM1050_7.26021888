@@ -4,7 +4,7 @@ def gt(n):
         t = t*i
     return t
 
-def tong(k,n):
+def tong(n,k):
     m = gt(n)/(gt(k)*gt(n-k))
     return m
 
@@ -12,5 +12,5 @@ n = int(input())
 t = 0
 for i in range (n):
     a, b = map(int,input().split())
-    t += tong(a,b)
+    t += int(tong(a,b))
 print(t)
