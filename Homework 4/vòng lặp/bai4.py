@@ -5,7 +5,7 @@ if n == 0:
 elif n < 0:
     n = -n
 else:
-    while n:
+    while n>0:
         n = n%10
         n =n//10
         t+=1
