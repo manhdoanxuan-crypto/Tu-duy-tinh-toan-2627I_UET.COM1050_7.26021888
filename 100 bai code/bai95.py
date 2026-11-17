@@ -1,0 +1,2 @@
+def tong(lst):
+    
