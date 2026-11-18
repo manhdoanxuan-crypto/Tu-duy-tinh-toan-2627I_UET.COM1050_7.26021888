@@ -12,7 +12,7 @@ def cp(a):
 a = list(map(int,input().split()))
 s = 0
 t = 0
-for i in (len(a)):
+for i in range (len(a)):
     if cp(a[i]) == 1:
         s+=a[i]
         t+=1
