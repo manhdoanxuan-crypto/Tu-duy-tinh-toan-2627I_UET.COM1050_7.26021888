@@ -1,13 +1,14 @@
-def max(a):
+def tim_max(a):
     max_val = max(a)
     vi_tri = [str(i) for i, x in enumerate(a) if x == max_val]
-    print(max_val, " ".join(vi_tri))
+    return max_val, " ".join(vi_tri)
 
-def min(a):
+def tim_min(a):
     min_val = min(a)
     vi_tri = [str(i) for i, x in enumerate(a) if x == min_val]
-    print(min_val, " ".join(vi_tri))
+    return min_val, " ".join(vi_tri)
 
 n = int(input())
 a = list(map(int, input().split()))
-print(max(a), min(a))
+print(tim_max(a))
+print(tim_min(a))
